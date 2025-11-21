@@ -1,4 +1,4 @@
-import { Section, Button } from './ui'
+import { Section, Button } from './ui.jsx'
 import { useTranslation } from 'react-i18next'
 
 export default function CTA() {

@@ -1,7 +1,7 @@
 import Spline from '@splinetool/react-spline'
 import { motion, useReducedMotion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { Button, Section } from './ui'
+import { Button, Section } from './ui.jsx'
 
 export default function Hero() {
   const { t } = useTranslation()

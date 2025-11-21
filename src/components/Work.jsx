@@ -1,4 +1,4 @@
-import { Section, Card, CardContent } from './ui'
+import { Section, Card, CardContent } from './ui.jsx'
 import { useTranslation } from 'react-i18next'
 
 export default function Work() {
