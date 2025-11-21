@@ -1,0 +1,74 @@
+{
+  "locales": ["en", "fr", "ar"],
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "eyebrow": {
+        "en": "Modern Web Experiences",
+        "fr": "Expériences Web Modernes",
+        "ar": "تجارب ويب عصرية"
+      },
+      "title": {
+        "en": "We build fast, beautiful websites",
+        "fr": "Nous créons des sites web rapides et élégants",
+        "ar": "نصمم مواقع سريعة وجذابة"
+      },
+      "subtitle": {
+        "en": "From idea to launch, our team ships pixel-perfect, accessible, and blazing-fast websites.",
+        "fr": "De l'idée au lancement, nous livrons des sites accessibles, parfaits au pixel et ultra-rapides.",
+        "ar": "من الفكرة إلى الإطلاق، نقدّم مواقع سهلة الوصول، دقيقة وجاهزة بسرعة هائلة."
+      },
+      "primaryCta": {
+        "label": {"en": "Start a project", "fr": "Démarrer un projet", "ar": "ابدأ مشروعك"},
+        "href": "#contact"
+      },
+      "secondaryCta": {
+        "label": {"en": "Our work", "fr": "Nos réalisations", "ar": "أعمالنا"},
+        "href": "#work"
+      }
+    },
+    {
+      "id": "services",
+      "type": "features",
+      "title": {"en": "What we do", "fr": "Ce que nous faisons", "ar": "ماذا نقدم"},
+      "items": [
+        {
+          "icon": "Code",
+          "title": {"en": "Web Development", "fr": "Développement Web", "ar": "تطوير الويب"},
+          "desc": {"en": "Full-stack apps with React and Fast APIs.", "fr": "Applications full‑stack avec React et API rapides.", "ar": "تطبيقات كاملة مع React وواجهات برمجية سريعة."}
+        },
+        {
+          "icon": "Sparkles",
+          "title": {"en": "Design Systems", "fr": "Systèmes de design", "ar": "أنظمة تصميم"},
+          "desc": {"en": "Reusable components and consistent UI.", "fr": "Composants réutilisables et UI cohérente.", "ar": "مكوّنات قابلة لإعادة الاستخدام وواجهة متّسقة."}
+        },
+        {
+          "icon": "Rocket",
+          "title": {"en": "Performance", "fr": "Performance", "ar": "الأداء"},
+          "desc": {"en": "Lighthouse‑winning speeds and SEO.", "fr": "Vitesses excellentes et SEO.", "ar": "سرعات عالية وتهيئة محركات البحث."}
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "type": "cards",
+      "title": {"en": "Selected work", "fr": "Réalisations", "ar": "أعمال مختارة"},
+      "items": [
+        {"title": {"en": "SaaS Dashboard", "fr": "Tableau de bord SaaS", "ar": "لوحة SaaS"}, "badge": "React", "desc": {"en": "Analytics and billing.", "fr": "Analytique et facturation.", "ar": "تحليلات وفوترة."}},
+        {"title": {"en": "E‑commerce", "fr": "E‑commerce", "ar": "تجارة إلكترونية"}, "badge": "Next.js", "desc": {"en": "Headless storefront.", "fr": "Boutique headless.", "ar": "متجر دون واجهة تقليدية."}},
+        {"title": {"en": "Marketing Site", "fr": "Site marketing", "ar": "موقع تسويقي"}, "badge": "Vite", "desc": {"en": "Lightning‑fast pages.", "fr": "Pages ultra‑rapides.", "ar": "صفحات سريعة للغاية."}}
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "cta",
+      "title": {"en": "Ready to ship?", "fr": "Prêt à lancer ?", "ar": "جاهز للإطلاق؟"},
+      "subtitle": {"en": "Tell us about your idea.", "fr": "Parlez‑nous de votre idée.", "ar": "أخبرنا عن فكرتك."},
+      "primaryCta": {
+        "label": {"en": "Get in touch", "fr": "Nous contacter", "ar": "تواصل معنا"},
+        "href": "mailto:hello@agency.dev"
+      }
+    }
+  ]
+}
